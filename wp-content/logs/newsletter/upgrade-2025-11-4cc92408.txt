@@ -1,0 +1,38 @@
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,1 МБ/256 МБ - admin2 > Start upgrade from 0.0.0
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+)
+
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > Backing up options of 0.0.0
+12-11-2025 12:22:09 - INFO  - 9.0.7 - 10,0 МБ/256 МБ - admin2 > End

@@ -1,0 +1,527 @@
+/**
+Theme Name: Valentin
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: valentin
+Template: astra
+*/
+
+
+
+@font-face{
+	font-family:MyriadPro-Regular;
+	src: url(font/MyriadPro-Regular.otf);
+}
+@font-face{
+	font-family:MyriadPro-Bold;
+	src: url(font/MyriadPro-Bold.otf);
+}
+
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+	margin:0;
+}
+html{
+	overflow-x:hidden;
+	font-family:MyriadPro-Regular;
+}
+
+.head{
+
+}
+.head-logotyp{
+	float:left;
+}
+.head-text{
+	float: right;
+    padding-top: 28px;
+}
+
+
+.slider{
+	background-image:url(images/background.jpg);
+	color: #FFF;
+	    border-radius: 10px;
+}
+.slider-top{
+    padding: 40px;
+}
+.slider-top-01{
+    float: left;
+    font-size: 38px;
+    font-family: MyriadPro-Bold;
+}
+.slider-top-02{
+    float: right;
+    font-size: 18.5px;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.slider-footer{
+	text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.slider-footer-01{
+    height: 172px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.0;
+    flex: 1 1 auto;
+    display: block;
+    position: relative;
+    flex-basis: 25%;
+}
+.slider-footer-01:after{
+    content: "+";
+    position: absolute;
+    top: 28px;
+    left: 0px;
+}
+.slider-footer-01:first-child:after{
+    content: "";
+}
+
+
+.buttom{
+	height:165px;
+	background-image:url(images/back.jpg);
+	text-align:center;
+	padding-top:70px;
+}
+.text{
+	height:50px;
+	color:#000;
+	font-size:24px;
+	font-family:MyriadPro-Bold;
+	text-align:center;
+	padding-top:5px;
+}
+
+.icon-six{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.icon-six-01{
+    text-align: center;
+    font-size: 19px;
+    font-family: MyriadPro-Bold;
+    line-height: 1.0;
+    flex-basis: 20%;
+    padding: 25px 0px;
+}
+
+.footer{
+    background-image: url(images/waves.png);
+    background-repeat: no-repeat;
+    padding: 32px 0 0 0;
+}
+.footer img{
+    max-width:100%;
+	height:auto;
+}
+.footer-01{
+    float: left;
+    font-size: 14px;
+    color: #535353;
+    padding-top: 20px;
+}
+.footer-02{
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    color: #535353;
+	font-style: italic;
+}
+
+.title{
+	height:60px;
+	font-size:34px;
+	font-family:MyriadPro-Bold;
+	padding-top:20px;
+	padding-left:30px;
+}
+
+.diplom{
+    width: 100%;
+}
+.diplom-01{
+    width: 768px;
+    float: left;
+    padding: 0px;
+    border: 2px solid #bcbcbc;
+    border-radius: 10px;
+}
+.width-input{
+    width: 48%;
+    float: left;
+    height: 80px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+@media (max-width: 1200px) {
+	
+.diplom-01{
+    float: initial;
+	margin-left: auto!important;
+    margin-right: auto!important;
+}	
+	
+	
+.width-input{
+	width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: initial;
+}
+
+}
+	
+	
+.diplom-02{
+	width:415px;
+	height:490px;
+	float:left;
+	padding-top:20px;
+}
+.diplom-100{
+    float: left;
+    width: 371px;
+    height: 526px;
+    background-image: url(images/diplom/diplom1.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 150px 50px 50px 50px;
+    font-size: 10px;
+    line-height: 1.2;
+	color:#000000;
+	margin: 0 10px;
+	background-size: contain;
+	
+}
+.diplom-150{
+    background-image: url(images/diplom-free/diplom-free.jpg);
+}
+.publikaciya{
+    background-image: url(images/publikaciya/publikaciya1.jpg);	
+}
+.onlinetest{
+    background-image: url(images/onlinetest/onlinetest1.jpg);	
+}
+.olimpiada{
+    background-image: url(images/olimpiada/olimpiada1.jpg);	
+}
+.olympiadadeti{
+    background-image: url(images/olympiadadeti/olympiadadeti1.jpg);	
+}
+.diplomtk{
+    background-image: url(images/diplomtk/diplomtk1.jpg);
+}
+.d75demo1{
+    background-image: url(images/75demo/75demo1.jpg);
+}
+
+.start input[type="text"], .start input[type="email"] {
+	height:52px;
+    width: 98%;
+	max-width:98%;
+	border-radius:10px;
+	padding-left:18px;
+	margin-left:1%;
+	margin-right:1%;
+	font-size:14px;
+	border: #bfbdbd solid 2px;
+}
+
+.payer{
+	margin: 0 auto;
+    font-size: 21px;
+    font-family: MyriadPro-Bold;
+    margin-top: 25px;
+	clear:both;
+}
+
+
+.start select {
+    height: 52px;
+    width: 99%;
+	max-width:99%;
+    border: 12px;
+    border-radius: 10px;
+    padding-left: 18px;
+	margin-left:1%;
+	margin-right:1%;
+    font-size: 14px;
+    border: #bfbdbd solid 2px;
+    background-position: right;
+    background-repeat: no-repeat;
+	background:#ffffff;
+	color: #535353;
+}
+
+
+.start label {
+    color: #535353;
+    display: block;
+    line-height: 26px;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    clear: both;
+
+}
+.inwrapper{
+    padding: 30px 20px;
+}
+
+.payform label{
+	display:block;
+}
+
+.payform label input{
+    margin-right: 5px;
+}
+
+.vbutton{
+	width:210px;
+	height:70px;
+	background-image: url(images/payer.jpg);
+	border:initial;
+	text-indent:-999px;
+	overflow:hidden;
+	margin-top: 15px;
+}
+
+.payform{
+	display:none;
+}
+
+label.error{
+    color: #ff0000!important;
+    display: none!important;
+}
+
+
+input.error{
+    border: #ff0000 solid 3px!important;
+}
+
+td{
+	border:1px solid #cccccc;
+	padding:5px;
+	
+}
+.nprikaza{
+	width:80px;
+}
+
+.clear{
+	clear:both;
+}
+
+h1 {
+	line-height:1.5;
+}
+
+.redbutton{
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 21px;
+    display: inline-block;
+    margin: 20px 0px;
+    background: #ff5850;
+    width: 322px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.redbutton a{
+	color:#ffffff;
+	text-decoration:none;
+
+}
+
+.redbutton-container{
+    text-align:center;
+	background: url(images/waves.png) center center repeat-x;
+}
+
+.container-align-center{
+	text-align:center;
+}
+
+
+
+.footer-text {
+    display: block;
+    line-height: 25px;
+    float: left;
+}
+
+@media (max-width: 1200px) {
+
+	.diplom-01 {    
+		margin-right: 20px;
+		width: 374px;
+		margin-bottom: 15px;
+	}
+	
+.diplom-100{
+    float: initial;
+	margin-left:auto;
+	margin-right:auto;
+}	
+	
+	
+	
+}
+
+@media (max-width: 1150px) {
+
+	.slider-top-01{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+	}
+	.slider-top-02{
+		width:100%;
+	}
+	.slider-top {
+		text-align: center;
+	}
+
+
+	.footer-02{
+		width:100%;
+		text-align: center;
+	}
+	.footer-01{
+    float: initial; 
+    margin: 0 auto;
+    display: block;
+    width: 478px;
+	}
+	
+}
+
+@media (max-width: 960px) {
+	.icon-six-01{
+		flex-basis: 33%;
+	}
+}
+
+
+@media (max-width: 650px) {
+	.head-text{
+		display:none;
+	}
+	.head-logotyp img{
+		height:70px;
+	}
+	.head-logotyp {
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.slider-footer-01 {
+		flex-basis: 50%;
+	}
+
+	.slider-footer-01:after {
+		content: "";
+	}
+
+	.icon-six-01 {
+		flex-basis: 33%;
+	}
+}
+
+@media (max-width: 550px) {
+	.footer-01{
+		display:none;
+	}
+}
+
+.redbutton-container {
+    background: none!important; 
+}
+
+p{
+	margin-bottom:15px;
+}
+
+.aligncenter{
+	text-align: center;
+    margin: 0 auto;
+}
+
+.redbutton {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #5e9af9;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 30px 15px 30px;
+}
+.acf-fields>.acf-field {
+padding: 0px 0px!important;
+border: initial!important;
+}
+
+.acf-field .acf-label label {
+    font-weight: normal!important;
+    margin: 0 0 0px!important;
+}
+
+.site-below-footer-wrap {
+	background: #33c8f9!important;
+}
+
+#content {
+}
+
+.ast-footer-copyright{
+	text-align:center;
+}
+
+.tnp-field.tnp-field-button{
+	text-align:center!important;
+}
+
+.ast-site-identity .site-title a {
+	color: #ffffff!important;
+}
+.ast-site-identity .site-description {
+    color: #ffffff!important;
+}
+.tnp-field label {
+    display: none;
+}
+
+.ast-builder-menu-mobile .main-navigation .main-header-menu .menu-item > .menu-link {
+		color: #ffffff;
+}
+
+.ast-mobile-popup-drawer.active .ast-mobile-popup-inner {
+    background-color: #00b0ff;
+}

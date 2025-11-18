@@ -1,0 +1,2 @@
+12-11-2025 12:42:28 - ERROR - 9.0.7 - 11,0 МБ/256 МБ - admin2 > Thumbnail id not found
+12-11-2025 12:42:28 - ERROR - 9.0.7 - 11,1 МБ/256 МБ - admin2 > Thumbnail id not found
